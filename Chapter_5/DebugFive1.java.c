@@ -5,11 +5,11 @@ int main() {
     const double MED_PRICE = 1.99;
     const double LOW_PRICE = 0.89;
 
-    int entreeChoice = 2;     // Pretend user chose Hotdog
-    int friesChoice = 1;      // Pretend user wants fries
+    int entreeChoice = 2;     
+    int friesChoice = 1;      
     double bill = 0.0;
 
-    // Simulated entree choice
+    
     if (entreeChoice == 1 || entreeChoice == 2) {
         bill += HIGH_PRICE;
     } else if (entreeChoice == 3 || entreeChoice == 4) {
@@ -18,7 +18,7 @@ int main() {
         printf("Invalid entree choice.\n");
     }
 
-    // Simulated fries choice
+    
     if (friesChoice == 1) {
         bill += LOW_PRICE;
     }
@@ -27,3 +27,4 @@ int main() {
 
     return 0;
 }
+
