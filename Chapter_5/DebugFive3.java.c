@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int item = 350;  // <-- hardcoded test value (change as needed)
+    int item = 350;  
     const int LOW = 111;
     const int HIGH = 999;
     const int CUTOFF = 500;
@@ -18,3 +18,4 @@ int main() {
 
     return 0;
 }
+
