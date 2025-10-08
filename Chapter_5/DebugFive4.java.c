@@ -4,7 +4,7 @@ int main() {
     int one, two, three, four;
     int highest;
 
-    // Simulated input (you can change these values to test)
+   
     one = 10;
     two = 25;
     three = 7;
@@ -25,4 +25,5 @@ int main() {
 
     return 0;
 }
+
 
