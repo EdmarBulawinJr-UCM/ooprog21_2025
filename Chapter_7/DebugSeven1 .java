@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 public class DebugSeven1 {
 
@@ -31,4 +30,5 @@ public class DebugSeven1 {
         else
             System.out.println(" are different");
     }
+
 }
